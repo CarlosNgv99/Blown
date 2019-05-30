@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <title>Blown</title>
+</head>
+<body>
+
+  <!-- Aquí empieza el navbar -->
+  <nav class ="fadeInDown">
+    <div class="brand_image">
+      <a href="index.html">
+      <img src="images/logo.png" alt="">
+    </a>
+    </div>
+    <div class="nav_options">
+      <ul>
+        <li><a href="#">Faqs</a></li>
+        <li><a href="representacion.html">Dem&aacute;s representaciones</a></li>
+      </ul>
+    </div>
+  </nav>
+  <br><br><br><br>
+  <!-- Aquí acaba el navbar -->
+    <!-- Formulario Venta -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="modulo_pago">
+                  <div class="modulo_pago_img">
+                    <img width="280" height="250"src="images/pluto5.png" alt="">
+                  </div>
+                    <h3>
+                        Exploraci&oacute;n
+                    </h3>
+                    <p>A vos, junto con tu capacidad de enfrentar a lo que se te ponga enfrente, lograr&aacute;s (e ir&aacute;s m&aacute;s lejos) salir de ese pequeño espacio que te parece "c&oacute;modo".</p>
+                </div>
+            </div>
+            <div class="col-5">
+                <div class="modulo_pago">
+                  <form action="" method="POST">
+                    <br>
+                    <label for="name">Nombre</label>
+                    <br>
+                    <input type="text" placeholder="" name="name" class ="data">
+                    <br><br>
+                    <label for="email">E-mail</label>
+                    <br>
+                    <input type="text" placeholder="" name="email" class ="data">
+                    <br><br>
+                    <label for="phone">Tel&eacute;fono</label>
+                    <br>
+                    <input type="text" placeholder="" name="phone" class ="data">
+                    <br><br>
+                    <form  action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                      <input type="hidden" name="cmd" value="_s-xclick" />
+                      <input type="hidden" name="hosted_button_id" value="EY3PBVNRKTAEW" />
+                      <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+                      <img alt="" border="0" src="https://www.paypal.com/en_GT/i/scr/pixel.gif" width="1" height="1" />
+                      </form>                  </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Formulario Venta -->
+    <!-- Formulario Beneficios -->
+
+    <!-- Formulario Beneficios -->
+    <div class="venta">
+    <footer>
+        <div class="option_contact">
+          <a href="terminosycondiciones.html">Terminos y condiciones</a>
+          </div>
+        <div  class="option_contact">
+          <a href="mailto:contacto@blown.com">contacto@blown.com</a>
+        </div>
+    
+    </footer>
+  </div>
+
+<scrip src="scripts/scrip.js"></scrip>
+</body>
+</html>

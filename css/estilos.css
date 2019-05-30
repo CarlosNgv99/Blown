@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+/* -------------Variables */
+:root{
+--green-color:#56597A;
+--white-color:white;
+--black-color:#313337;
+/* TipografÃ­a */
+--normal:12px;
+/* Espaciado */
+--space:10px;
+/* Box shadow */
+--box:0px 0 2px 1px var(--black-color);
+}
+
+/* -------------Variables */
+html,body{
+  background-color: #6d6e7e;
+  padding:0px;
+  margin:0px;
+  font-size: var(--normal);
+  font-family: 'Open Sans', sans-serif;
+}
+
+p,label{
+  font-size: var(--normal);
+}
+label{
+  padding-bottom: var(--space);
+}
+nav{
+  display: flex;
+  background-color: var(--green-color);
+  padding: var(--space);
+  color: var(--white-color);
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul{
+  display: flex;
+}
+
+nav li{
+  padding-left: 20px;
+  list-style: none;
+
+}
+
+nav li a{
+  color: white;
+  text-decoration: none;
+}
+
+nav li a:hover{
+  color: var(--white-color);
+}
+
+/* ------------------------ Main section */
+
+.main_section{
+  padding: 10%;
+  text-align: center;
+}
+.main_section h1{
+  color:white;
+}
+
+/* Products sectio*/
+.products{
+  background-image: url("../images/fondo.png");
+  max-height: 30px;
+  background-size: cover;
+  background-position: center top;
+  padding:15%;
+  display: flex;
+}
+
+.product{
+  padding: var(--space);
+  margin-top: -200px;
+  margin-left: 5%;
+}
+.product .content{
+  background-color: none;
+  padding: var(--space);
+  box-shadow: var(--box);
+  border-radius: 5px;
+
+}
+.product .content p{
+  font-size: 15px;
+}
+.img_content{
+  text-align: center;
+}
+.img_content:hover img{
+  transform:scale(1.2);
+  -ms-transform:scale(1.2); 
+  -moz-transform:scale(1.2); 
+  -webkit-transform:scale(1.2);  
+  -o-transform:scale(1.2); 
+}
+
+.main_button{
+  background-color: var(--green-color);
+  width: 100%;
+  padding: var(--space);
+  font-size: var(--normal);
+  color: white;
+  border:0;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+.main_button:hover{
+  background-color: #56597A;
+}
+/*Information Section*/
+.information_users{
+    padding: var(--space);
+    margin-top: 10px;
+}
+.information_section{
+    display:flex;
+    padding:3%;
+}
+.information{
+    padding: var(--space);
+    text-align: center;
+}
+.information .content{
+
+     background-color: none;
+
+    padding: var(--space);
+}
+.information_section p{
+  font-size: 15px;
+}
+/*Mention Section*/
+.mentions{
+    display: flex;
+    padding: 5%;
+}
+.mentions img{
+    width: 100%;
+}
+h2.mention_title{
+    text-align: center;
+}
+.mention{
+    padding: var(--space);
+}
+.mention p{
+  font-size: 15px;
+}
+
+.mention .text{
+    padding: 10%;
+}
+/**/
+h1.product_title{
+    text-align: left;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+.text_column{
+    text-align: left;
+    padding: 10%;
+}
+/*---------------Venta--------------------*/
+.modulo_pago{
+  background-color: var(--white-color);
+  box-shadow: 0px 0 2px 2px var(--black-color);
+  padding: 5px;
+  text-align: justify;
+}
+.modulo_pago_img{
+  max-width: 500;
+  text-align: center;
+  margin: auto;
+}
+.modulo_pago .btn_paypal{
+  text-align: center;
+}
+.data{
+  margin-top: var(--space);
+  width: 100%;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px solid black; 
+  box-sizing: border-box;
+}
+/*------------------Footer---------------*/
+
+.option_contact a{
+  color:white;
+  text-decoration: none;
+}
+/*footer{
+    display: flex;
+    background-color: #313337;
+    color: white;
+    justify-content: space-between;
+    padding: var(--space);
+}*/
+footer {
+  display: flex;
+  align-items: center;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  justify-content: space-between;
+  background:#313337;
+}
+
+.venta footer{
+  display: flex;
+  align-items: center;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  justify-content: space-between;
+  background:#313337;
+}
+.terms_content{
+  margin: 0px;
+  padding: 10px;
+  color:white;
+  text-align: left;
+  font-size: 12px;
+}
+
